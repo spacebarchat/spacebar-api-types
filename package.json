@@ -1,6 +1,6 @@
 {
 	"name": "@spacebarchat/spacebar-api-types",
-	"version": "0.37.42",
+	"version": "0.37.43",
 	"description": "Spacebar API typings that are kept up to date for use in bot library and client creation.",
 	"homepage": "https://spacebar.chat",
 	"exports": {
@@ -112,7 +112,7 @@
 	"author": "Vlad Frangu <kingdgrizzle@gmail.com>",
 	"license": "MIT",
 	"files": [
-		"{gateway,payloads,rest,rpc,voice,utils}/**/*.{js,js.map,d.ts,d.ts.map,mjs}",
+		"{gateway,payloads,rest,rpc,voice,utils,spacebar}/**/*.{js,js.map,d.ts,d.ts.map,mjs}",
 		"{globals,v*}.{js,js.map,d.ts,d.ts.map,mjs}"
 	],
 	"devDependencies": {
