@@ -39,7 +39,7 @@ execSync(`npm version ${expectedBumpType}`);
 const newVersion = JSON.parse(execSync('npm version --json', { encoding: 'utf8' }));
 
 console.info(
-	`✅ Done! spacebar-api-types was bumped to ${newVersion['spacebar-api-types']}! Checking if there was a pull request open already and closing it if so...`,
+	`✅ Done! spacebar-api-types was bumped to ${newVersion['@spacebarchat/spacebar-api-types']}! Checking if there was a pull request open already and closing it if so...`,
 );
 
 if (!process.env.GITHUB_TOKEN) {
