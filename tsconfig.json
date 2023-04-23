@@ -1,0 +1,30 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"lib": ["esnext"],
+		"module": "commonjs",
+		"noUnusedParameters": true,
+		"sourceMap": true,
+		"declaration": true,
+		"declarationMap": true,
+		"noUnusedLocals": true,
+		"removeComments": false,
+		"target": "ES2016",
+		"importsNotUsedAsValues": "error",
+		"strictNullChecks": true,
+		"preserveConstEnums": true,
+		"exactOptionalPropertyTypes": true
+	},
+	"include": [
+		"globals.ts",
+		"v9.ts",
+		"gateway/**/*.ts",
+		"payloads/**/*.ts",
+		"rest/**/*.ts",
+		"rpc/**/*.ts",
+		"utils/**/*.ts",
+		"voice/**/*.ts",
+		"spacebar/**/*.ts"
+	]
+}
