@@ -2,7 +2,6 @@
  * Types extracted from https://discord.com/developers/docs/topics/gateway
  */
 
-import type { Channel } from 'diagnostics_channel';
 import type { Snowflake } from '../globals';
 import type { GatewayPresenceUpdate } from '../payloads/v9/gateway';
 import type {
@@ -523,7 +522,7 @@ export interface GatewayReadyDispatchData {
 	/**
 	 * The private channels the user is in
 	 */
-	private_channels: Channel[];
+	private_channels: APIChannel[];
 
 	/**
 	 * The guilds the user is in
