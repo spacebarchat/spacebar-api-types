@@ -12,7 +12,7 @@ This package is a modified version of [Discord API Types](https://github.com/dis
 
 Some notable changes include:
 
-- Versions 6, 9 and 10 of the API and Gateway have been removed, this is because Spacebar is only focused with version 9 right now.
+- Versions 6, 8 and 10 of the API and Gateway have been removed, this is because Spacebar is only focused with version 9 right now.
 - Deno removed
 
 ## Installation
