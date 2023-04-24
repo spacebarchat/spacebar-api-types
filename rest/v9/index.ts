@@ -1116,6 +1116,72 @@ export const CDNRoutes = {
 	guildMemberBanner(guildId: Snowflake, userId: Snowflake, guildMemberBanner: string, format: GuildMemberBannerFormat) {
 		return `/guilds/${guildId}/users/${userId}/banners/${guildMemberBanner}.${format}` as const;
 	},
+
+	/* ---------- Auth routes -------------------- */
+	login() {
+		return '/auth/login' as const;
+	},
+
+	logout() {
+		return '/auth/logout' as const;
+	},
+
+	register() {
+		return '/auth/register' as const;
+	},
+
+	reset() {
+		return '/auth/reset' as const;
+	},
+
+	locationMetadata() {
+		return '/auth/location-metadata' as const;
+	},
+
+	generateRegistrationTokens() {
+		return '/auth/generate-registration-tokens' as const;
+	},
+
+	forgot() {
+		return '/auth/forgot' as const;
+	},
+
+	emailVerify() {
+		return '/auth/verify' as const;
+	},
+
+	emailVerifyResend() {
+		return '/auth/verify/resend' as const;
+	},
+
+	viewBackupCodesChallenge() {
+		return '/auth/verify/view-backup-codes-challenge' as const;
+	},
+
+	mfaTotp() {
+		return '/auth/mfa/totp' as const;
+	},
+
+	mfaWebauthn() {
+		return '/auth/mfa/webauthn' as const;
+	},
+
+	/* ---------- Polices routes -------------------- */
+	stats() {
+		return '/policies/stats' as const;
+	},
+
+	instance() {
+		return '/policies/instance' as const;
+	},
+
+	instanceDomains() {
+		return '/policies/instance/domains' as const;
+	},
+
+	instanceLimits() {
+		return '/policies/instance/limits' as const;
+	},
 };
 
 export type DefaultUserAvatarAssets = 0 | 1 | 2 | 3 | 4 | 5;
