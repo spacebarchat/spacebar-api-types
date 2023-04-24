@@ -1,3 +1,12 @@
+## [0.37.46](https://github.com/spacebarchat/spacebar-api-types/compare/0.37.45...0.37.46) (2023-04-24)
+
+
+### Bug Fixes
+
+* new routes in wrong object :skull: ([e7ce4b8](https://github.com/spacebarchat/spacebar-api-types/commit/e7ce4b82a62b74ba659924d62e728f6caf3df037))
+
+
+
 ## [0.37.45](https://github.com/spacebarchat/spacebar-api-types/compare/0.37.44...0.37.45) (2023-04-24)
 
 
