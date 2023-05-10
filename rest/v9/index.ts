@@ -981,7 +981,7 @@ export const CDNRoutes = {
 	 * This route supports the extensions: PNG, JPEG, WebP, GIF
 	 */
 	guildIcon(guildId: Snowflake, guildIcon: string, format: GuildIconFormat) {
-		return `icons/${guildId}/${guildIcon}.${format}` as const;
+		return `/icons/${guildId}/${guildIcon}.${format}` as const;
 	},
 
 	/**
