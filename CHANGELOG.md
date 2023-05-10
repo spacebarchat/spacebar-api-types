@@ -1,3 +1,13 @@
+## [0.37.48](https://github.com/spacebarchat/spacebar-api-types/compare/0.37.46...0.37.48) (2023-05-10)
+
+
+### Bug Fixes
+
+* icons url missing leading slash ([40e0180](https://github.com/spacebarchat/spacebar-api-types/commit/40e0180d1b83016134d6a9d69861e14a082655b5))
+* remove broken script ([b22a1bd](https://github.com/spacebarchat/spacebar-api-types/commit/b22a1bde647419172a8d140eb7b0f3748cf63202))
+
+
+
 ## [0.37.46](https://github.com/spacebarchat/spacebar-api-types/compare/0.37.45...0.37.46) (2023-04-24)
 
 
