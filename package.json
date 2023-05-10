@@ -94,7 +94,6 @@
 		"esm:rpc": "gen-esm-wrapper ./rpc/index.js ./rpc/index.mjs",
 		"esm:utils": "gen-esm-wrapper ./utils/index.js ./utils/index.mjs",
 		"esm:spacebar": "gen-esm-wrapper ./utils/index.js ./utils/index.mjs",
-		"esm:versions": "node ./scripts/versions.mjs",
 		"esm:voice": "gen-esm-wrapper ./voice/index.js ./voice/index.mjs",
 		"lint": "prettier --write . && eslint --fix --ext mjs,ts {gateway,payloads,rest,rpc,voice,utils,spacebar}/**/*.ts {globals,v*}.ts scripts/**/*.mjs",
 		"prepare": "is-ci || husky install",
