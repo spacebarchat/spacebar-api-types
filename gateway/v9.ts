@@ -2075,7 +2075,7 @@ export interface GatewayLazyRequestData {
 	channels?: Record<string, [number, number][]>;
 	activities?: boolean;
 	threads?: boolean;
-	typing?: true;
+	typing?: boolean;
 	members?: string[];
 	thread_member_lists?: unknown[];
 }
