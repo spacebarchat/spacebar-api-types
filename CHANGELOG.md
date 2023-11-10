@@ -1,3 +1,12 @@
+## [0.37.50](https://github.com/spacebarchat/spacebar-api-types/compare/0.37.49...0.37.50) (2023-11-10)
+
+
+### Bug Fixes
+
+* lazyrequestdata typing property type ([c3eb808](https://github.com/spacebarchat/spacebar-api-types/commit/c3eb808f6c6be314c8958077bfbba3c33d56e3d4))
+
+
+
 ## [0.37.48](https://github.com/spacebarchat/spacebar-api-types/compare/0.37.46...0.37.48) (2023-05-10)
 
 
