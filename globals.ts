@@ -38,7 +38,7 @@ export const FormattingPatterns = {
 	 *
 	 * The `id` group property is present on the `exec` result of this expression
 	 */
-	Channel: /<#(?<id>\d{17,20})>/,
+	Channel: /<#(?<id>\d*)>/,
 	/**
 	 * Regular expression for matching a role mention
 	 *
